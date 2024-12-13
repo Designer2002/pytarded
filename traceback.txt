@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/characters.rpy", line 130, in script
+    define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)
+  File "game/characters.rpy", line 130, in <module>
+    define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)
+  File "game/artificial_character.rpy", line 11, in __init__
+    self.client = pycai.Client(token=token)
+AttributeError: module 'characterai.pycai' has no attribute 'Client'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/characters.rpy", line 130, in script
+    define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)
+  File "D:\renpy\renpy\ast.py", line 2235, in execute
+    self.set()
+  File "D:\renpy\renpy\ast.py", line 2249, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "D:\renpy\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/characters.rpy", line 130, in <module>
+    define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)
+  File "game/artificial_character.rpy", line 11, in __init__
+    self.client = pycai.Client(token=token)
+AttributeError: module 'characterai.pycai' has no attribute 'Client'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.3.24111502
+pytarded 1.0
+Wed Dec  4 22:05:45 2024
