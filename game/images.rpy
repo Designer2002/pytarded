@@ -208,3 +208,8 @@ image clock:
     "gui/clock/f (20).gif"
     pause 0.01
     repeat
+
+image wait = Movie(channel="movie", play="videos/dance_wait.mp4")
+image dance_1 = Movie(channel="movie", play="videos/dance_1.mp4")
+image dance_2 = Movie(channel="movie", play="videos/dance_2.mp4")
+image dance_3 = Movie(channel="movie", play="videos/dance_3.mp4")

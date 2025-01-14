@@ -1,32 +1,56 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/characters.rpy", line 130, in script
-    define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)
-  File "game/characters.rpy", line 130, in <module>
-    define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)
-  File "game/artificial_character.rpy", line 11, in __init__
-    self.client = pycai.Client(token=token)
-AttributeError: module 'characterai.pycai' has no attribute 'Client'
+After initialization, but before game start.
+  File "game/main_menu.rpy", line 21, in prepare_screen
+    screen main_menu_animation():
+  File "game/main_menu.rpy", line 21, in prepare
+    screen main_menu_animation():
+  File "game/main_menu.rpy", line 24, in prepare
+    vbox:
+  File "game/main_menu.rpy", line 24, in prepare
+    vbox:
+  File "game/main_menu.rpy", line 29, in prepare
+    imagebutton:
+  File "game/main_menu.rpy", line 29, in prepare
+    imagebutton:
+SyntaxError: invalid syntax (game/main_menu.rpy, line 36)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/characters.rpy", line 130, in script
-    define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)
-  File "D:\renpy\renpy\ast.py", line 2235, in execute
-    self.set()
-  File "D:\renpy\renpy\ast.py", line 2249, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "D:\renpy\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/characters.rpy", line 130, in <module>
-    define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)
-  File "game/artificial_character.rpy", line 11, in __init__
-    self.client = pycai.Client(token=token)
-AttributeError: module 'characterai.pycai' has no attribute 'Client'
+  File "D:\renpy\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "D:\renpy\renpy\main.py", line 652, in main
+    run(restart)
+  File "D:\renpy\renpy\main.py", line 94, in run
+    renpy.display.screen.prepare_screens()
+  File "D:\renpy\renpy\display\screen.py", line 1026, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/main_menu.rpy", line 21, in prepare_screen
+    screen main_menu_animation():
+  File "game/main_menu.rpy", line 21, in prepare
+    screen main_menu_animation():
+  File "game/main_menu.rpy", line 24, in prepare
+    vbox:
+  File "game/main_menu.rpy", line 24, in prepare
+    vbox:
+  File "game/main_menu.rpy", line 29, in prepare
+    imagebutton:
+  File "game/main_menu.rpy", line 29, in prepare
+    imagebutton:
+  File "D:\renpy\renpy\py3analysis.py", line 803, in ast_eval
+    return self.ast_eval_literal(expr)[0]
+  File "D:\renpy\renpy\py3analysis.py", line 785, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "D:\renpy\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "D:\renpy\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "D:\renpy\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/main_menu.rpy, line 36)
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.3.24111502
 pytarded 1.0
-Wed Dec  4 22:05:45 2024
+Tue Jan 14 23:16:41 2025

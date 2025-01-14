@@ -10,3 +10,4 @@ default dave_rel = LoveVariable("dave")
 default prev_love = 0
 default branch = 0
 
+default rhythm_game = RhythmGame()

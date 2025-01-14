@@ -33,7 +33,7 @@ screen main_menu_animation():
             xalign 0.5
             idle im.Scale("gui/key_start.png", 150,150)
             hover im.Scale("gui/key_start_pressed.png",150,150)
-            action Start()
+            action Show("rhythm_game", None, rhythm_game)
         imagebutton:
             xsize 150
             ysize 150

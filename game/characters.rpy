@@ -125,6 +125,3 @@ define j = Character("джйм", color="#bac45e", image="james", window_backgrou
 define n = Character("вкид менза", color="#575757", image="nick", window_background="gui/textboxes/neutral.png",callback=name_callback, cb_name="nick")
 define k = Character("кириешка", color="#201212", image="kirk", window_background="gui/textboxes/neutral.png",callback=name_callback, cb_name="kirk")
 define board = Character(kind=nvl, what_color="#fff", what_font="gui/code.ttf")
-
-define token = "1b3a4eaaec0bef63e64e15b4d0947b221bb3f14c"
-define daveai = ArtificialCharacter(char_token="gkYP1YwR5Gk6YbVMD4v6NjDvn-4Yk-DHlZjooyD9Vdk", token=token)

@@ -2,21 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/artificial_character.rpy", line 3: expected statement.
-    import logging
-                  ^
-
-File "game/artificial_character.rpy", line 4: expected statement.
-    from characterai import pycai
-                                 ^
-
-File "game/artificial_character.rpy", line 5: expected statement.
-    logging.basicConfig(filename='ai.log',encoding='utf-8',level=logging.INFO, filemode = 'w', format='%(process)d-%(levelname)s-%(message)s') 
-                                                                                                                                               ^
-
-File "game/artificial_character.rpy", line 8: expected statement.
-    class ArtificialCharacter:
-                             ^
+File "game/rhythmgame.rpy", line 17: expected an indented block
+    def __init__(self, identity, strumTime, position):
+     ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Wed Dec  4 20:27:36 2024
+Mon Jan 13 20:32:58 2025
