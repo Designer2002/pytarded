@@ -335,7 +335,7 @@ translate None strings:
 
     # renpy/common/00action_file.rpy:949
     old "Quick save complete."
-    new "Быстрое сохранение завершено."
+    new "Быстрое сохранение\n завершено."
 
     # renpy/common/00action_file.rpy:964
     old "Quick save."

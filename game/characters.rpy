@@ -3,6 +3,7 @@ define dave_zoom_koef = 0.88
 define lars_zoom__koef = 0.8
 define kirk_zoom_koef = 0.72
 define nick_zoom__koef = 0.7
+define girl_zoom_koef = 0.7
 
 image dave think = At('dave think demo', sprite_highlight('dave'))
 image dave think demo:
@@ -28,6 +29,14 @@ image dave smile = At('dave smile demo', sprite_highlight('dave'))
 image dave smile demo:
     zoom dave_zoom_koef
     "images/dave smile.png"
+image dave pink normal = At('dave pink normal demo', sprite_highlight('dave'))
+image dave pink normal demo:
+    zoom 0.77
+    "images/dave pink normal.png"
+image dave pink smile = At('dave pink smile demo', sprite_highlight('dave'))
+image dave pink smile demo:
+    zoom 0.77
+    "images/dave pink smile.png"
 
 image james blush = At("james blush demo", sprite_highlight('james'))
 image james blush demo:
@@ -117,6 +126,16 @@ image kirk normal demo:
     "images/kirk normal.png"
     zoom kirk_zoom_koef
 
+image gerard normal = At("gerard normal demo", sprite_highlight("sonya"))
+image gerard normal demo:
+    "images/gerard normal.png"
+    zoom girl_zoom_koef
+
+image gerard side = At("gerard side demo", sprite_highlight("sonya"))
+image gerard side demo:
+    "images/gerard side.png"
+    zoom girl_zoom_koef
+
 
 define narrator = Character(None,window_background="gui/textboxes/narrator.png")
 define d = Character("дйв", color="#3a0a0a", image="dave", window_background="gui/textboxes/dave.png", callback=name_callback, cb_name="dave")
@@ -124,4 +143,5 @@ define l = Character("срал улей", color="#c45e9d", image="lars", window_
 define j = Character("джйм", color="#bac45e", image="james", window_background="gui/textboxes/james.png",callback=name_callback, cb_name="james")
 define n = Character("вкид менза", color="#575757", image="nick", window_background="gui/textboxes/neutral.png",callback=name_callback, cb_name="nick")
 define k = Character("кириешка", color="#201212", image="kirk", window_background="gui/textboxes/neutral.png",callback=name_callback, cb_name="kirk")
-define board = Character(kind=nvl, what_color="#fff", what_font="gui/code.ttf")
+define board = Character(kind=nvl, what_color="#fff", what_font="gui/code2.ttf")
+define se = Character("1000-7", color="#868686", image="sonya", window_background="gui/textboxes/neutral.png",callback=name_callback, cb_name="sonya")

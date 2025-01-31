@@ -19,6 +19,7 @@ image sign:
 
 
 screen main_menu_animation():
+    tag menu
     add "bg"
     add "sign" blend "add"
     vbox:
@@ -33,7 +34,7 @@ screen main_menu_animation():
             xalign 0.5
             idle im.Scale("gui/key_start.png", 150,150)
             hover im.Scale("gui/key_start_pressed.png",150,150)
-            action Show("rhythm_game", None, rhythm_game)
+            action Show("premenu")
         imagebutton:
             xsize 150
             ysize 150

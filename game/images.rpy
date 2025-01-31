@@ -5,6 +5,17 @@ image day_sun:
     "images/light/sun.jpg"
     blend "add"
     alpha 0.3
+
+image shop:
+    im.Scale("images/light/shop.jpeg", 1920, 1080)
+    blend "multiply"
+    alpha 0.5
+
+image psychodelic1:
+    "psycho1"
+    blend "add"
+    zoom 4.2
+    alpha 0.15
     
 image sunrise:
     "images/light/sunrise.jpg"
@@ -207,6 +218,69 @@ image clock:
     pause 0.01
     "gui/clock/f (20).gif"
     pause 0.01
+    repeat
+
+image fire:
+    "images/fire/1.gif"
+    pause 0.02
+    "images/fire/2.gif"
+    pause 0.02
+    "images/fire/3.gif"
+    pause 0.02
+    "images/fire/4.gif"
+    pause 0.02
+    "images/fire/5.gif"
+    pause 0.02
+    "images/fire/6.gif"
+    pause 0.02
+    "images/fire/7.gif"
+    pause 0.02
+    "images/fire/8.gif"
+    pause 0.02
+    "images/fire/9.gif"
+    pause 0.02
+    "images/fire/10.gif"
+    pause 0.02
+    "images/fire/11.gif"
+    pause 0.02
+    "images/fire/12.gif"
+    pause 0.02
+    "images/fire/13.gif"
+    pause 0.02
+    "images/fire/14.gif"
+    pause 0.02
+    "images/fire/15.gif"
+    pause 0.02
+    "images/fire/16.gif"
+    pause 0.02
+    "images/fire/17.gif"
+    pause 0.02
+    "images/fire/18.gif"
+    pause 0.02
+    "images/fire/19.gif"
+    pause 0.02
+    "images/fire/20.gif"
+    pause 0.02
+    "images/fire/21.gif"
+    pause 0.02
+    "images/fire/22.gif"
+    pause 0.02
+    "images/fire/23.gif"
+    pause 0.02
+    "images/fire/24.gif"
+    pause 0.02
+    "images/fire/25.gif"
+    pause 0.02
+    "images/fire/26.gif"
+    pause 0.02
+    "images/fire/27.gif"
+    pause 0.02
+    "images/fire/28.gif"
+    pause 0.02
+    "images/fire/29.gif"
+    pause 0.02
+    "images/fire/30.gif"
+    pause 0.02
     repeat
 
 image wait = Movie(channel="movie", play="videos/dance_wait.mp4")

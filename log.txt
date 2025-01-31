@@ -1,211 +1,46 @@
-2025-01-14 20:17:17 UTC
-Windows-10-10.0.19045
-Ren'Py 8.3.3.24111502
+2025-01-31 06:14:30 UTC
+Linux-6.8.0-49-generic-x86_64-with-glibc2.35
+Ren'Py 8.4.0.0+unofficial
 
-Early init took 0.11s
-Loading error handling took 0.04s
-Loading script took 0.23s
-Loading save slot metadata took 0.05s
+Early init took 0.31s
+Loading error handling took 0.08s
+Loading script took 0.53s
+Loading save slot metadata took 0.15s
 Loading persistent took 0.00s
-Running init code took 0.14s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.04s
+Running init code took 0.41s
+Loading analysis data took 0.12s
+Analyze and compile ATL took 0.11s
+Reloading save slot metadata took 0.16s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\st\\AppData\\Roaming/RenPy/backups\\pytarded':
-Dump and make backups took 0.09s
+Backing up script files to '/home/jane/.renpy/backups/pytarded':
+Dump and make backups took 0.29s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.07s
+Initial gc took 0.17s
 DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.89s
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
+Init translation took 0.17s
+Build styles took 0.02s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
+Analyze screens took 0.06s
+Save screen analysis took 0.08s
+Prepare screens took 0.37s
+Save pyanalysis. took 0.11s
+Save bytecode. took 0.08s
 Running _start took 0.00s
-Interface start took 0.08s
+ready
+Interface start took 0.51s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce 210/PCIe/SSE2'
-Version: b'3.3.0'
+Vendor: "b'Intel'"
+Renderer: b'Mesa Intel(R) HD Graphics (BYT)'
+Version: b'4.2 (Compatibility Profile) Mesa 23.2.1-1ubuntu3.1~22.04.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1730, 973) drawable=(1730, 973)
+Screen sizes: virtual=(1920, 1080) physical=(1296, 704) drawable=(1296, 704)
 Maximum texture size: 4096x4096
-(640.0, -90)
-(1895.0, -90)
-(640.0, -80)
-(640.0, -90)
-(1895.0, -80)
-(345.0, -90)
-(640.0, -70)
-(640.0, -80)
-(640.0, -90)
-(1895.0, -70)
-(1895.0, -90)
-(345.0, -80)
-(640.0, -60)
-(640.0, -70)
-(640.0, -80)
-(640.0, -90)
-(1895.0, -60)
-(1895.0, -80)
-(1895.0, -90)
-(345.0, -70)
-(640.0, -50)
-(640.0, -60)
-(640.0, -70)
-(640.0, -80)
-(1280.0, -90)
-(1895.0, -50)
-(1895.0, -70)
-(1895.0, -80)
-(1895.0, -90)
-(345.0, -60)
-(640.0, -40)
-(640.0, -50)
-(640.0, -60)
-(640.0, -70)
-(1280.0, -80)
-(1280.0, -90)
-(1895.0, -40)
-(1895.0, -60)
-(1895.0, -70)
-(1895.0, -80)
-(345.0, -50)
-(640.0, -30)
-(640.0, -40)
-(640.0, -50)
-(640.0, -60)
-(1280.0, -70)
-(1280.0, -80)
-(1280.0, -90)
-(1600.0, -90)
-(1895.0, -30)
-(1895.0, -50)
-(1895.0, -60)
-(1895.0, -70)
-(345.0, -40)
-(640.0, -20)
-(640.0, -30)
-(640.0, -40)
-(640.0, -50)
-(1280.0, -60)
-(1280.0, -70)
-(1280.0, -80)
-(1280.0, -90)
-(1600.0, -80)
-(1895.0, -20)
-(1895.0, -40)
-(1895.0, -50)
-(1895.0, -60)
-(345.0, -30)
-(345.0, -90)
-(640.0, -10)
-(640.0, -20)
-(640.0, -30)
-(640.0, -40)
-(1280.0, -50)
-(1280.0, -60)
-(1280.0, -70)
-(1280.0, -80)
-(1600.0, -70)
-(1895.0, -10)
-(1895.0, -30)
-(1895.0, -40)
-(1895.0, -50)
-(345.0, -20)
-(345.0, -80)
-(640.0, 0)
-(640.0, -10)
-(640.0, -20)
-(640.0, -30)
-(1280.0, -40)
-(1280.0, -50)
-(1280.0, -60)
-(1280.0, -70)
-(1600.0, -60)
-(1895.0, 0)
-(1895.0, -20)
-(1895.0, -30)
-(1895.0, -40)
-(345.0, -10)
-(345.0, -70)
-(640.0, 10)
-(640.0, 0)
-(640.0, -10)
-(640.0, -20)
-(960.0, -90)
-(1280.0, -30)
-(1280.0, -40)
-(1280.0, -50)
-(1280.0, -60)
-(1600.0, -50)
-(1895.0, 10)
-(1895.0, -10)
-(1895.0, -20)
-(1895.0, -30)
-(345.0, 0)
-(345.0, -60)
-(640.0, 20)
-(640.0, 10)
-(640.0, 0)
-(640.0, -10)
-(960.0, -80)
-(960.0, -90)
-(1280.0, -20)
-(1280.0, -30)
-(1280.0, -40)
-(1280.0, -50)
-(1600.0, -40)
-(1895.0, 20)
-(1895.0, 0)
-(1895.0, -10)
-(1895.0, -20)
-(345.0, 10)
-(345.0, -50)
-(640.0, 30)
-(640.0, 20)
-(640.0, 10)
-(640.0, 0)
-(960.0, -70)
-(960.0, -80)
-(1280.0, -10)
-(1280.0, -20)
-(1280.0, -30)
-(1280.0, -40)
-(1600.0, -30)
-(1600.0, -90)
-(1895.0, 30)
-(1895.0, 10)
-(1895.0, 0)
-(1895.0, -10)
-(345.0, 20)
-(345.0, -40)
-(640.0, 40)
-(640.0, 30)
-(640.0, 20)
-(640.0, 10)
-(960.0, -60)
-(960.0, -70)
-(1280.0, 0)
-(1280.0, -10)
-(1280.0, -20)
-(1280.0, -30)
-(1600.0, -20)
-(1600.0, -80)
-(1895.0, 40)
-(1895.0, 20)
-(1895.0, 10)
-(1895.0, 0)
+Screen sizes: virtual=(1920, 1080) physical=(1296, 704) drawable=(1296, 704)
+Maximum texture size: 4096x4096

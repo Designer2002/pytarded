@@ -1366,8 +1366,21 @@ screen timez:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#nvl
 
+init python:
 
-screen nvl(dialogue, items=None):
+    def nontransient_nvl(mode, old_modes):
+
+        if mode == 'say' or mode == 'menu':
+            widget_properties, dialogue, show_args = _m1_00nvl_mode__nvl_screen_dialogue()
+            if dialogue:
+                renpy.show_screen('nvl', _layer=config.nvl_layer, _widget_properties=widget_properties, dialogue=dialogue, **show_args)
+
+        elif mode == 'nvl':
+            nvl_hide(None)
+
+    config.mode_callbacks.append(nontransient_nvl)
+
+screen nvl(dialogue, items=[]):
 
     window:
         style "nvl_window"

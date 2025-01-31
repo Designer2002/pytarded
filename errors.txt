@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/rhythmgame.rpy", line 17: expected an indented block
-    def __init__(self, identity, strumTime, position):
-     ^
+File "game/premenu.rpy", line 63: is not terminated with a newline. (Check strings and parenthesis.)
+                            action If(chapters[i].status==1, Start(make_start_label(chapters[i].num)), If(chapters[i].status==2, ShowMenu("load"),  Confirm("Вы уже прошли эту часть истории. Хотите переформатировать диск?", yes_action=clear_variables, no_action=renpy.ShowMenu('main')))
 
-Ren'Py Version: Ren'Py 8.3.3.24111502
-Mon Jan 13 20:32:58 2025
+Ren'Py Version: Ren'Py 8.4.0.0+unofficial
+Fri Jan 31 09:12:19 2025

@@ -9,5 +9,11 @@ default hetstaine = LoveVariable("james", "dave")
 default dave_rel = LoveVariable("dave")
 default prev_love = 0
 default branch = 0
+default urok1 = False
+
+
+default chapters = [Chapter("давай познакомимся =))", 1), Chapter("здесь питоню я >:C", 2)]
+default persistent.nums = [2, 1]
+
 
 default rhythm_game = RhythmGame()
